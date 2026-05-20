@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+*.egg-info/
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Local assistant/tooling state
+.agents/
+.claude/
+.codex/
+
+# Node / frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.ruff_cache/
+frontend/data/
+
+# Runtime data and generated analysis artifacts
+data/**
+!data/
+!data/results/
+!data/results/.gitkeep
+!data/ora/
+!data/ora/msigdb/
+!data/ora/msigdb/.gitkeep
+!data/ora/results/
+!data/ora/results/.gitkeep
+!data/ora/uploads/
+!data/ora/uploads/.gitkeep
+!data/tcga/
+!data/tcga/pancanatlas/
+!data/tcga/pancanatlas/README.md
+!data/tcga/pancanatlas/manifests/
+!data/tcga/pancanatlas/manifests/.gitkeep
+
+# Logs and OS/editor files
+*.log
+.DS_Store
+Thumbs.db
